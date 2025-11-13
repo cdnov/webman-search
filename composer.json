@@ -1,5 +1,5 @@
 {
-  "name": "shopwwi/webman-search",
+  "name": "cdnov/webman-search",
   "description": "search for the webman",
   "keywords": ["webman", "meilisearch"],
   "type": "library",
