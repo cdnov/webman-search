@@ -29,7 +29,7 @@ class ShopwwiSearchCommand extends Command
      * @return int
      * @throws \Exception
      */
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $name = $input->getArgument('name');
         $output->writeln('生成meilisearch密钥 开始');
